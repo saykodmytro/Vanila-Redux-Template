@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
 const ListComponent = () => {
   const products = useSelector(state => state.productsData.products);
   const dispatch = useDispatch();
+
+  useEffect(() => {
+    localStorage.setItem('products', JSON.stringify(products));
+  }, [products]);
 
   const handleDeleteProduct = productId => {
     const deleteActionProduct = {

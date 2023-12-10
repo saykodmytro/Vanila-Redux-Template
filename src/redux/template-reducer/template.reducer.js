@@ -2,7 +2,7 @@ import { products } from 'tempData/tempData';
 
 // Записуамо в початковий стан дані із локал стореджу або null
 const initialState = {
-  products: JSON.parse(localStorage.getItem('templateExaple')) ?? products,
+  products: JSON.parse(localStorage.getItem('products')) ?? products,
 };
 
 // Функція Редюсера приймає два параметри (state, action) і обовязково має повертати стан , змінений або ні. Кожемо що наш стан за замовчуванню = початковому стану.
