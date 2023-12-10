@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Vanila-Redux-Template/static/css/main.7acaea2f.css",
-    "main.js": "/Vanila-Redux-Template/static/js/main.07d3183d.js",
+    "main.css": "/Vanila-Redux-Template/static/css/main.908f4810.css",
+    "main.js": "/Vanila-Redux-Template/static/js/main.99be84fa.js",
     "index.html": "/Vanila-Redux-Template/index.html",
-    "main.7acaea2f.css.map": "/Vanila-Redux-Template/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/Vanila-Redux-Template/static/js/main.07d3183d.js.map"
+    "main.908f4810.css.map": "/Vanila-Redux-Template/static/css/main.908f4810.css.map",
+    "main.99be84fa.js.map": "/Vanila-Redux-Template/static/js/main.99be84fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.908f4810.css",
+    "static/js/main.99be84fa.js"
   ]
 }
