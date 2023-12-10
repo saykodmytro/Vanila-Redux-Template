@@ -13,3 +13,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.products-item {
+  outline: 2px solid red;
+}
+
+.prod-form {
+  outline: 2px solid red;
+  margin-left: 40px;
+  padding-left: 10px;
+}
+
+.lable-form {
+  display: block;
+  margin-bottom: 10px;
+}
